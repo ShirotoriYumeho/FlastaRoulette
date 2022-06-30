@@ -2764,16 +2764,28 @@ if (reversed == null) { reversed = false; }
 		var root = this;
 		
 		console.log(this.parent.canvas.ownerDocument);
-		var document = this.parent.canvas.ownerDocument;
+				var document = this.parent.canvas.ownerDocument;
+				
+				var password = "38384040373739396665";
+				var key = "";
 		
-		document.addEventListener('keydown', (event) => {
-			var keyName = event.key;
-	
-			if (event.ctrlKey) {
-			  console.log(`keydown:Ctrl + ${keyName}`);
-			} 
-		  });
-
+				document.addEventListener('keydown', (event) => {
+					var keyName = event.key;
+					key += event.keyCode;
+					console.log(key);
+		
+					if(password.length == key.length){
+						if(password == key){
+							root.play();
+			
+						}else{
+							key = "";
+						}
+					}
+			
+				  });
+		
+		
 		root.menu.versionText.text = "ver.0.0.1"
 		
 		var texts = [{ //1
@@ -3000,7 +3012,13 @@ if (reversed == null) { reversed = false; }
 			SelectUser();
 		}
 		
+		
 		ResetValue();
+		
+		this.stop();
+		this.menu.alpha = 0;
+		this.main.alpha = 0;
+		this.result.alpha = 0;
 	}
 	this.frame_1 = function() {
 		this.stop();
@@ -3024,28 +3042,31 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
 	// menu
 	this.menu = new lib.menu();
 	this.menu.name = "menu";
 	this.menu.setTransform(426.45,200.75,0.4757,0.4756,0,0,0,0.8,0.6);
+	this.menu.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.menu).to({_off:true},4).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.menu).wait(4));
 
 	// main
 	this.main = new lib.main();
 	this.main.name = "main";
 	this.main.setTransform(182.5,127.65,0.4788,0.4788,0,0,0,0.1,0.1);
+	this.main.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.main).to({_off:true},4).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.main).wait(4));
 
 	// result
 	this.result = new lib.result();
 	this.result.name = "result";
 	this.result.setTransform(83.25,87.5,0.5435,0.5434,0,0,0,0.2,0.3);
+	this.result.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.result).wait(23));
+	this.timeline.addTween(cjs.Tween.get(this.result).wait(4));
 
 	// stageBackground
 	this.shape = new cjs.Shape();
@@ -3056,7 +3077,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#FFFFFF").s().p("EhMjArwMAAAhXfMCZHAAAMAAABXfg");
 	this.shape_1.setTransform(480,270);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(23));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(4));
 
 	this._renderFirstFrame();
 
@@ -3071,8 +3092,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/gacha02_atlas_1.png?1656562516240", id:"gacha02_atlas_1"},
-		{src:"images/gacha02_atlas_2.png?1656562516240", id:"gacha02_atlas_2"}
+		{src:"images/gacha02_atlas_1.png?1656575473691", id:"gacha02_atlas_1"},
+		{src:"images/gacha02_atlas_2.png?1656575473691", id:"gacha02_atlas_2"}
 	],
 	preloads: []
 };
