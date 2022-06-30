@@ -2763,6 +2763,17 @@ if (reversed == null) { reversed = false; }
 		//初期値の設定
 		var root = this;
 		
+		console.log(this.parent.canvas.ownerDocument);
+		var document = this.parent.canvas.ownerDocument;
+		
+		document.addEventListener('keydown', (event) => {
+			var keyName = event.key;
+	
+			if (event.ctrlKey) {
+			  console.log(`keydown:Ctrl + ${keyName}`);
+			} 
+		  });
+
 		root.menu.versionText.text = "ver.0.0.1"
 		
 		var texts = [{ //1
