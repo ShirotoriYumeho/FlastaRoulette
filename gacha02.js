@@ -3048,7 +3048,6 @@ if (reversed == null) { reversed = false; }
 	this.menu = new lib.menu();
 	this.menu.name = "menu";
 	this.menu.setTransform(426.45,200.75,0.4757,0.4756,0,0,0,0.8,0.6);
-	this.menu.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.menu).wait(4));
 
@@ -3074,7 +3073,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.setTransform(480,270);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("EhMjArwMAAAhXfMCZHAAAMAAABXfg");
+	this.shape_1.graphics.f("#E5DACA").s().p("EhMjArwMAAAhXfMCZHAAAMAAABXfg");
 	this.shape_1.setTransform(480,270);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(4));
@@ -3089,11 +3088,11 @@ lib.properties = {
 	width: 960,
 	height: 540,
 	fps: 24,
-	color: "#FFFFFF",
+	color: "#E5DACA",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/gacha02_atlas_1.png?1656575473691", id:"gacha02_atlas_1"},
-		{src:"images/gacha02_atlas_2.png?1656575473691", id:"gacha02_atlas_2"}
+		{src:"images/gacha02_atlas_1.png?1656575867527", id:"gacha02_atlas_1"},
+		{src:"images/gacha02_atlas_2.png?1656575867527", id:"gacha02_atlas_2"}
 	],
 	preloads: []
 };
