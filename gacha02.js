@@ -2763,7 +2763,6 @@ if (reversed == null) { reversed = false; }
 		//初期値の設定
 		var root = this;
 		
-		console.log(this.parent.canvas.ownerDocument);
 				var document = this.parent.canvas.ownerDocument;
 				
 				var password = "38384040373739396665";
@@ -2772,7 +2771,7 @@ if (reversed == null) { reversed = false; }
 				document.addEventListener('keydown', (event) => {
 					var keyName = event.key;
 					key += event.keyCode;
-					console.log(key);
+				
 		
 					if(password.length == key.length){
 						if(password == key){
