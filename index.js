@@ -2089,7 +2089,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(28));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(27));
 
 	// user_iconSet
 	this.dummy = new lib.user_iconSet_01_1();
@@ -2200,7 +2200,7 @@ if (reversed == null) { reversed = false; }
 	this.usericon_27.name = "usericon_27";
 	this.usericon_27.setTransform(10.45,-27.1,3.1,3.1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.dummy}]}).to({state:[{t:this.usericon_0}]},2).to({state:[{t:this.usericon_1}]},1).to({state:[{t:this.usericon_2}]},1).to({state:[{t:this.usericon_3}]},1).to({state:[{t:this.usericon_4}]},1).to({state:[{t:this.usericon_5}]},1).to({state:[{t:this.usericon_6}]},1).to({state:[{t:this.usericon_7}]},1).to({state:[{t:this.usericon_8}]},1).to({state:[{t:this.usericon_9}]},1).to({state:[{t:this.usericon_10}]},1).to({state:[{t:this.usericon_11}]},1).to({state:[{t:this.usericon_12}]},1).to({state:[{t:this.usericon_13}]},1).to({state:[{t:this.usericon_14}]},1).to({state:[{t:this.usericon_15}]},1).to({state:[{t:this.usericon_17}]},1).to({state:[{t:this.usericon_18}]},1).to({state:[{t:this.usericon_19}]},1).to({state:[{t:this.usericon_20}]},1).to({state:[{t:this.usericon_21}]},1).to({state:[]},1).to({state:[{t:this.usericon_22}]},1).to({state:[{t:this.usericon_24}]},1).to({state:[{t:this.usericon_25}]},1).to({state:[{t:this.usericon_26}]},1).to({state:[{t:this.usericon_27}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.dummy}]}).to({state:[{t:this.usericon_0}]},2).to({state:[{t:this.usericon_1}]},1).to({state:[{t:this.usericon_2}]},1).to({state:[{t:this.usericon_3}]},1).to({state:[{t:this.usericon_4}]},1).to({state:[{t:this.usericon_5}]},1).to({state:[{t:this.usericon_6}]},1).to({state:[{t:this.usericon_7}]},1).to({state:[{t:this.usericon_8}]},1).to({state:[{t:this.usericon_9}]},1).to({state:[{t:this.usericon_10}]},1).to({state:[{t:this.usericon_11}]},1).to({state:[{t:this.usericon_12}]},1).to({state:[{t:this.usericon_13}]},1).to({state:[{t:this.usericon_14}]},1).to({state:[{t:this.usericon_15}]},1).to({state:[{t:this.usericon_17}]},1).to({state:[{t:this.usericon_18}]},1).to({state:[{t:this.usericon_19}]},1).to({state:[{t:this.usericon_20}]},1).to({state:[{t:this.usericon_21}]},1).to({state:[{t:this.usericon_22}]},1).to({state:[{t:this.usericon_24}]},1).to({state:[{t:this.usericon_25}]},1).to({state:[{t:this.usericon_26}]},1).to({state:[{t:this.usericon_27}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2702,111 +2702,111 @@ if (reversed == null) { reversed = false; }
 	// user_icon
 	this.user_21 = new lib.usericonTransform();
 	this.user_21.name = "user_21";
-	this.user_21.setTransform(-281.9,569.8);
+	this.user_21.setTransform(-125.95,385.45);
 
 	this.user_25 = new lib.usericonTransform();
 	this.user_25.name = "user_25";
-	this.user_25.setTransform(222.45,239.85);
+	this.user_25.setTransform(-458.8,542.95);
 
 	this.user_24 = new lib.usericonTransform();
 	this.user_24.name = "user_24";
-	this.user_24.setTransform(215.95,-74.45,1,1,0,0,0,-6.5,17.4);
+	this.user_24.setTransform(-634.15,560.35,1,1,0,0,0,-6.5,17.4);
 
 	this.user_23 = new lib.usericonTransform();
 	this.user_23.name = "user_23";
-	this.user_23.setTransform(222.45,74.75);
+	this.user_23.setTransform(205.45,385.45);
 
 	this.user_22 = new lib.usericonTransform();
 	this.user_22.name = "user_22";
-	this.user_22.setTransform(-450,569.8);
+	this.user_22.setTransform(40.65,385.45);
 
 	this.user_26 = new lib.usericonTransform();
 	this.user_26.name = "user_26";
-	this.user_26.setTransform(222.45,403.75);
+	this.user_26.setTransform(-290.55,542.95);
 
 	this.user_20 = new lib.usericonTransform();
 	this.user_20.name = "user_20";
-	this.user_20.setTransform(-618.1,569.8);
+	this.user_20.setTransform(-290.55,385.45);
 
 	this.user_19 = new lib.usericonTransform();
 	this.user_19.name = "user_19";
-	this.user_19.setTransform(54.35,403.75);
+	this.user_19.setTransform(-458.8,385.45);
 
 	this.user_18 = new lib.usericonTransform();
 	this.user_18.name = "user_18";
-	this.user_18.setTransform(-113.8,403.75);
+	this.user_18.setTransform(-627.65,385.45);
 
 	this.user_17 = new lib.usericonTransform();
 	this.user_17.name = "user_17";
-	this.user_17.setTransform(-281.9,403.75);
+	this.user_17.setTransform(205.45,226.7);
 
 	this.user_16 = new lib.usericonTransform();
 	this.user_16.name = "user_16";
-	this.user_16.setTransform(-450,403.75);
+	this.user_16.setTransform(40.65,226.7);
 
 	this.user_15 = new lib.usericonTransform();
 	this.user_15.name = "user_15";
-	this.user_15.setTransform(-618.1,403.75);
+	this.user_15.setTransform(-125.95,226.7);
 
 	this.user_14 = new lib.usericonTransform();
 	this.user_14.name = "user_14";
-	this.user_14.setTransform(54.35,239.85);
+	this.user_14.setTransform(-290.55,226.7);
 
 	this.user_13 = new lib.usericonTransform();
 	this.user_13.name = "user_13";
-	this.user_13.setTransform(-113.8,239.85);
+	this.user_13.setTransform(-458.8,226.7);
 
 	this.user_12 = new lib.usericonTransform();
 	this.user_12.name = "user_12";
-	this.user_12.setTransform(-281.9,239.85);
+	this.user_12.setTransform(-627.65,226.7);
 
 	this.user_11 = new lib.usericonTransform();
 	this.user_11.name = "user_11";
-	this.user_11.setTransform(-450,239.85);
+	this.user_11.setTransform(205.45,67);
 
 	this.user_10 = new lib.usericonTransform();
 	this.user_10.name = "user_10";
-	this.user_10.setTransform(-618.1,239.85);
+	this.user_10.setTransform(40.65,67);
 
 	this.user_9 = new lib.usericonTransform();
 	this.user_9.name = "user_9";
-	this.user_9.setTransform(54.35,74.75);
+	this.user_9.setTransform(-125.95,67);
 
 	this.user_8 = new lib.usericonTransform();
 	this.user_8.name = "user_8";
-	this.user_8.setTransform(-113.8,74.75);
+	this.user_8.setTransform(-290.55,67);
 
 	this.user_7 = new lib.usericonTransform();
 	this.user_7.name = "user_7";
-	this.user_7.setTransform(-281.9,74.75);
+	this.user_7.setTransform(-458.8,67);
 
 	this.user_6 = new lib.usericonTransform();
 	this.user_6.name = "user_6";
-	this.user_6.setTransform(-450,74.75);
+	this.user_6.setTransform(-627.65,67);
 
 	this.user_5 = new lib.usericonTransform();
 	this.user_5.name = "user_5";
-	this.user_5.setTransform(-618.1,74.75);
+	this.user_5.setTransform(205.45,-91.85);
 
 	this.user_4 = new lib.usericonTransform();
 	this.user_4.name = "user_4";
-	this.user_4.setTransform(54.35,-91.85);
+	this.user_4.setTransform(40.65,-91.85);
 
 	this.user_3 = new lib.usericonTransform();
 	this.user_3.name = "user_3";
-	this.user_3.setTransform(-113.8,-91.85);
+	this.user_3.setTransform(-125.95,-91.85);
 
 	this.user_2 = new lib.usericonTransform();
 	this.user_2.name = "user_2";
-	this.user_2.setTransform(-281.9,-91.85);
+	this.user_2.setTransform(-290.55,-91.85);
 
 	this.user_1 = new lib.usericonTransform();
 	this.user_1.name = "user_1";
-	this.user_1.setTransform(-450,-91.85);
+	this.user_1.setTransform(-458.8,-91.85);
 
 	this.user_0 = new lib.usericonTransform();
 	this.user_0.name = "user_0";
-	this.user_0.setTransform(-618.1,-91.85);
+	this.user_0.setTransform(-627.65,-91.85);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.user_0},{t:this.user_1},{t:this.user_2},{t:this.user_3},{t:this.user_4},{t:this.user_5},{t:this.user_6},{t:this.user_7},{t:this.user_8},{t:this.user_9},{t:this.user_10},{t:this.user_11},{t:this.user_12},{t:this.user_13},{t:this.user_14},{t:this.user_15},{t:this.user_16},{t:this.user_17},{t:this.user_18},{t:this.user_19},{t:this.user_20},{t:this.user_26},{t:this.user_22},{t:this.user_23},{t:this.user_24},{t:this.user_25},{t:this.user_21}]}).wait(1));
 	this.user_21.addEventListener("tick", AdobeAn.handleFilterCache);
@@ -3110,25 +3110,25 @@ if (reversed == null) { reversed = false; }
 				profile: "展覧会によく行く",
 				comment: "トーテミズムに興味があります！",
 			    activate:true,
-		        no:23
+		        no:22
 		    },{ //25
 				name: "주 현성",
 				profile: "韓国の田舎出身",
 				comment: "仮面ライダーのことなら\nお任せください！",
 			    activate:true,
-		        no:24
+		        no:23
 			},{ //26
 				name: "河高 崇",
 				profile: "23新卒の中では日本出身",
 				comment: "意外？とカラオケが趣味です",
 			    activate:true,
-		        no:25
+		        no:24
 			},{ //27
 				name: "西根 奈都実 ",
 				profile: "猫を飼っています",
 				comment: "サラミあん肝塩辛かにみそ生ハム\nローストビーフスモークサーモン",
 			    activate:true,
-		        no:26
+		        no:25
 		}
 			]
 		
@@ -3472,8 +3472,8 @@ lib.properties = {
 	color: "#E5DACA",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1694488412889", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1694488412889", id:"index_atlas_2"}
+		{src:"images/index_atlas_1.png?1694490298982", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1694490298982", id:"index_atlas_2"}
 	],
 	preloads: []
 };
