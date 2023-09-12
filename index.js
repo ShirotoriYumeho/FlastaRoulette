@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"gacha_atlas_1", frames: [[0,0,598,1782],[600,0,598,1772]]},
-		{name:"gacha_atlas_2", frames: [[1860,516,163,163],[1682,0,256,256],[0,1270,121,111],[0,626,508,232],[0,0,1004,624],[818,1295,461,4],[1006,622,630,261],[1006,315,647,305],[1006,0,674,313],[123,1270,166,80],[1682,258,256,256],[1655,516,203,203],[410,1241,202,203],[510,626,203,203],[715,626,203,203],[1638,721,203,203],[1843,721,203,203],[510,831,203,203],[715,831,203,203],[0,860,203,203],[205,860,203,203],[614,1241,202,203],[920,885,203,203],[1125,885,203,203],[1330,885,203,203],[1535,926,203,203],[1740,926,203,203],[410,1036,203,203],[615,1036,203,203],[0,1065,203,203],[205,1065,203,203],[820,1090,203,203],[1025,1090,203,203],[1230,1090,203,203],[1435,1131,203,203],[1640,1131,203,203],[1845,1131,203,203]]}
+		{name:"index_atlas_1", frames: [[0,0,598,1782],[600,0,598,1772]]},
+		{name:"index_atlas_2", frames: [[1860,516,163,163],[1682,0,256,256],[0,1270,121,111],[0,626,508,232],[0,0,1004,624],[818,1295,461,4],[1006,622,630,261],[1006,315,647,305],[1006,0,674,313],[123,1270,166,80],[1682,258,256,256],[1655,516,203,203],[410,1241,202,203],[510,626,203,203],[715,626,203,203],[1638,721,203,203],[1843,721,203,203],[510,831,203,203],[715,831,203,203],[0,860,203,203],[205,860,203,203],[614,1241,202,203],[920,885,203,203],[1125,885,203,203],[1330,885,203,203],[1535,926,203,203],[1740,926,203,203],[410,1036,203,203],[615,1036,203,203],[0,1065,203,203],[205,1065,203,203],[820,1090,203,203],[1025,1090,203,203],[1230,1090,203,203],[1435,1131,203,203],[1640,1131,203,203],[1845,1131,203,203]]}
 ];
 
 
@@ -29,273 +29,273 @@ lib.ssMetadata = [
 
 
 (lib.back_btn = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.basketIcon = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.flaggs_flag = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Menu_orderBtn = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.recipt_base = function() {
-	this.initialize(ss["gacha_atlas_1"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Register = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resict_baseShadow = function() {
-	this.initialize(ss["gacha_atlas_1"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resipt_exitLine = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_Box = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_commentFill = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_commentLine = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ribbon = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Star = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_01 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_03 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_04 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_05 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_07 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_08 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_11 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_12 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_13 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_14 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_15 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_17 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_18 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_21 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_22 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_23 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_24 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_25 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_27 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_29 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_30 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_31 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_32 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_33 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_34 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_35 = function() {
-	this.initialize(ss["gacha_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -2700,9 +2700,9 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.menuReciptAnim).wait(1));
 
 	// user_icon
-	this.user_26 = new lib.usericonTransform();
-	this.user_26.name = "user_26";
-	this.user_26.setTransform(-281.9,569.8);
+	this.user_21 = new lib.usericonTransform();
+	this.user_21.name = "user_21";
+	this.user_21.setTransform(-281.9,569.8);
 
 	this.user_25 = new lib.usericonTransform();
 	this.user_25.name = "user_25";
@@ -2720,9 +2720,9 @@ if (reversed == null) { reversed = false; }
 	this.user_22.name = "user_22";
 	this.user_22.setTransform(-450,569.8);
 
-	this.user_21 = new lib.usericonTransform();
-	this.user_21.name = "user_21";
-	this.user_21.setTransform(222.45,403.75);
+	this.user_26 = new lib.usericonTransform();
+	this.user_26.name = "user_26";
+	this.user_26.setTransform(222.45,403.75);
 
 	this.user_20 = new lib.usericonTransform();
 	this.user_20.name = "user_20";
@@ -2808,13 +2808,13 @@ if (reversed == null) { reversed = false; }
 	this.user_0.name = "user_0";
 	this.user_0.setTransform(-618.1,-91.85);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.user_0},{t:this.user_1},{t:this.user_2},{t:this.user_3},{t:this.user_4},{t:this.user_5},{t:this.user_6},{t:this.user_7},{t:this.user_8},{t:this.user_9},{t:this.user_10},{t:this.user_11},{t:this.user_12},{t:this.user_13},{t:this.user_14},{t:this.user_15},{t:this.user_16},{t:this.user_17},{t:this.user_18},{t:this.user_19},{t:this.user_20},{t:this.user_21},{t:this.user_22},{t:this.user_23},{t:this.user_24},{t:this.user_25},{t:this.user_26}]}).wait(1));
-	this.user_26.addEventListener("tick", AdobeAn.handleFilterCache);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.user_0},{t:this.user_1},{t:this.user_2},{t:this.user_3},{t:this.user_4},{t:this.user_5},{t:this.user_6},{t:this.user_7},{t:this.user_8},{t:this.user_9},{t:this.user_10},{t:this.user_11},{t:this.user_12},{t:this.user_13},{t:this.user_14},{t:this.user_15},{t:this.user_16},{t:this.user_17},{t:this.user_18},{t:this.user_19},{t:this.user_20},{t:this.user_26},{t:this.user_22},{t:this.user_23},{t:this.user_24},{t:this.user_25},{t:this.user_21}]}).wait(1));
+	this.user_21.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_25.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_24.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_23.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_22.addEventListener("tick", AdobeAn.handleFilterCache);
-	this.user_21.addEventListener("tick", AdobeAn.handleFilterCache);
+	this.user_26.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_20.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_19.addEventListener("tick", AdobeAn.handleFilterCache);
 	this.user_18.addEventListener("tick", AdobeAn.handleFilterCache);
@@ -2981,7 +2981,7 @@ if (reversed == null) { reversed = false; }
 				  });
 		
 		
-		root.menu.versionText.text = "ver.0.0.1"
+		root.menu.versionText.text = "ver.1.1.0"
 		var selentedUsers = [];
 		this.test=[];	  
 		var infos = [{ //1
@@ -3472,8 +3472,8 @@ lib.properties = {
 	color: "#E5DACA",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/gacha_atlas_1.png", id:"gacha_atlas_1"},
-		{src:"images/gacha_atlas_2.png", id:"gacha_atlas_2"}
+		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png", id:"index_atlas_2"}
 	],
 	preloads: []
 };
