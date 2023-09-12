@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,598,1782],[600,0,598,1772]]},
-		{name:"index_atlas_2", frames: [[1860,516,163,163],[1682,0,256,256],[0,1270,121,111],[0,626,508,232],[0,0,1004,624],[818,1295,461,4],[1006,622,630,261],[1006,315,647,305],[1006,0,674,313],[123,1270,166,80],[1682,258,256,256],[1655,516,203,203],[410,1241,202,203],[510,626,203,203],[715,626,203,203],[1638,721,203,203],[1843,721,203,203],[510,831,203,203],[715,831,203,203],[0,860,203,203],[205,860,203,203],[614,1241,202,203],[920,885,203,203],[1125,885,203,203],[1330,885,203,203],[1535,926,203,203],[1740,926,203,203],[410,1036,203,203],[615,1036,203,203],[0,1065,203,203],[205,1065,203,203],[820,1090,203,203],[1025,1090,203,203],[1230,1090,203,203],[1435,1131,203,203],[1640,1131,203,203],[1845,1131,203,203]]}
+		{name:"index_atlas_1", frames: [[1860,516,163,163],[1682,0,256,256],[0,1270,121,111],[0,626,508,232],[0,0,1004,624],[818,1295,461,4],[1006,622,630,261],[1006,315,647,305],[1006,0,674,313],[123,1270,166,80],[1682,258,256,256],[1655,516,203,203],[410,1241,202,203],[510,626,203,203],[715,626,203,203],[1638,721,203,203],[1843,721,203,203],[510,831,203,203],[715,831,203,203],[0,860,203,203],[205,860,203,203],[614,1241,202,203],[920,885,203,203],[1125,885,203,203],[1330,885,203,203],[1535,926,203,203],[1740,926,203,203],[410,1036,203,203],[615,1036,203,203],[0,1065,203,203],[205,1065,203,203],[820,1090,203,203],[1025,1090,203,203],[1230,1090,203,203],[1435,1131,203,203],[1640,1131,203,203],[1845,1131,203,203]]},
+		{name:"index_atlas_2", frames: [[0,0,598,1782],[600,0,598,1772]]}
 ];
 
 
@@ -29,273 +29,273 @@ lib.ssMetadata = [
 
 
 (lib.back_btn = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.basketIcon = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.flaggs_flag = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Menu_orderBtn = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.recipt_base = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Register = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resict_baseShadow = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resipt_exitLine = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_Box = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_commentFill = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_commentLine = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ribbon = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Star = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_01 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_03 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_04 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_05 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_07 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_08 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_11 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_12 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_13 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_14 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_15 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_17 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_18 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_21 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_22 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_23 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_24 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_25 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_27 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_29 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_30 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_31 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_32 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_33 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_34 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_35 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -2908,17 +2908,6 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// ver
-	this.versionText = new cjs.Text("ver.0.0.0", "20px 'MS Gothic'", "#756A5F");
-	this.versionText.name = "versionText";
-	this.versionText.textAlign = "right";
-	this.versionText.lineHeight = 22;
-	this.versionText.lineWidth = 162;
-	this.versionText.parent = this;
-	this.versionText.setTransform(1113.25,685.75);
-
-	this.timeline.addTween(cjs.Tween.get(this.versionText).wait(1));
-
 	// btn
 	this.btn = new lib.Menu_orderBtn_1();
 	this.btn.name = "btn";
@@ -2981,7 +2970,7 @@ if (reversed == null) { reversed = false; }
 				  });
 		
 		
-		root.menu.versionText.text = "ver.1.1.0"
+		root.versionText.text = "ver.1.1.2"
 		var selentedUsers = [];
 		this.test=[];	  
 		var infos = [{ //1
@@ -3425,6 +3414,17 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
+	// レイヤー_1
+	this.versionText = new cjs.Text("ver.0.0.0", "12px 'MS Gothic'", "#756A5F");
+	this.versionText.name = "versionText";
+	this.versionText.textAlign = "right";
+	this.versionText.lineHeight = 14;
+	this.versionText.lineWidth = 162;
+	this.versionText.parent = this;
+	this.versionText.setTransform(935.5,18.75);
+
+	this.timeline.addTween(cjs.Tween.get(this.versionText).wait(4));
+
 	// menu
 	this.menu = new lib.menu();
 	this.menu.name = "menu";
@@ -3472,8 +3472,8 @@ lib.properties = {
 	color: "#E5DACA",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png", id:"index_atlas_2"}
+		{src:"images/index_atlas_1.png?1694488412889", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1694488412889", id:"index_atlas_2"}
 	],
 	preloads: []
 };
