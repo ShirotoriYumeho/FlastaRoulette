@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[1860,516,163,163],[1682,0,256,256],[0,1270,121,111],[0,626,508,232],[0,0,1004,624],[818,1295,461,4],[1006,622,630,261],[1006,315,647,305],[1006,0,674,313],[123,1270,166,80],[1682,258,256,256],[1655,516,203,203],[410,1241,202,203],[510,626,203,203],[715,626,203,203],[1638,721,203,203],[1843,721,203,203],[510,831,203,203],[715,831,203,203],[0,860,203,203],[205,860,203,203],[614,1241,202,203],[920,885,203,203],[1125,885,203,203],[1330,885,203,203],[1535,926,203,203],[1740,926,203,203],[410,1036,203,203],[615,1036,203,203],[0,1065,203,203],[205,1065,203,203],[820,1090,203,203],[1025,1090,203,203],[1230,1090,203,203],[1435,1131,203,203],[1640,1131,203,203],[1845,1131,203,203]]},
-		{name:"index_atlas_2", frames: [[0,0,598,1782],[600,0,598,1772]]}
+		{name:"index_atlas_1", frames: [[0,0,598,1782],[600,0,598,1772]]},
+		{name:"index_atlas_2", frames: [[1860,516,163,163],[1682,0,256,256],[0,1270,121,111],[0,626,508,232],[0,0,1004,624],[818,1295,461,4],[1006,622,630,261],[1006,315,647,305],[1006,0,674,313],[123,1270,166,80],[1682,258,256,256],[1655,516,203,203],[410,1241,202,203],[510,626,203,203],[715,626,203,203],[1638,721,203,203],[1843,721,203,203],[510,831,203,203],[715,831,203,203],[0,860,203,203],[205,860,203,203],[614,1241,202,203],[920,885,203,203],[1125,885,203,203],[1330,885,203,203],[1535,926,203,203],[1740,926,203,203],[410,1036,203,203],[615,1036,203,203],[0,1065,203,203],[205,1065,203,203],[820,1090,203,203],[1025,1090,203,203],[1230,1090,203,203],[1435,1131,203,203],[1640,1131,203,203],[1845,1131,203,203]]}
 ];
 
 
@@ -29,273 +29,273 @@ lib.ssMetadata = [
 
 
 (lib.back_btn = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.basketIcon = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.flaggs_flag = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Menu_orderBtn = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.recipt_base = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Register = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resict_baseShadow = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resipt_exitLine = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_Box = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_commentFill = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.result_commentLine = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ribbon = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Star = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_01 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_03 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_04 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_05 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_07 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_08 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_11 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_12 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_13 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_14 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_15 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_17 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_18 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_21 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_22 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_23 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_24 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_25 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_27 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_29 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_30 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_31 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_32 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_33 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_34 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.user_iconSet_35 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -2973,157 +2973,157 @@ if (reversed == null) { reversed = false; }
 		root.versionText.text = "ver.1.1.2"
 		var selentedUsers = [];
 		this.test=[];	  
-		var infos = [{ //1
+		var infos = [{ 
 				name: "鈴木 恭平",
 				profile: "日本酒好き\n部屋の中が\nおもちゃまみれ",
 				comment: "きょんぺーです",
 			    activate:false,
 			    no:0
-			}, { //2
+			}, { 
 				name: "菊地 潮",
 				profile: " 本職：\nヤンキーアイドルの\nプロデューサー",
 				comment: "やごうが潮なんです",
 			    activate:true,
 				no:1
-			}, { //3
+			}, { 
 				name: "村地 廉太朗",
 				profile: "五反田大使",
 				comment: "疫病退散",
 			    activate:false,
 				no:2
-			}, { //4
+			}, { 
 				name: "寺井 武馬",
 				profile: "好きなサッカー選手は\nシェフチェンコ",
 				comment: "サッカーの話なら 任せてください！",
 			    activate:false,
 				no:3
-			}, { //5
+			}, { 
 				name: "菊池 皆",
 				profile: "岩手県出身\n現在は埼玉で\nログハウス暮らし",
 				comment: "みなさんもログハウスに 住みましょう",
 			    activate:false,
 				no:4
-			}, { //6
+			}, { 
 				name: "石川 満",
 				profile: "趣味：なし\n特技：なし\n沖縄県出身",
 				comment: "生きるって何だろう？",
 			    activate:false,
 				no:5
-			}, { //7
+			}, { 
 				name: "乾 眞琳",
 				profile: "無類のカイジ好き\n第二次世界大戦周辺の\n日本推し",
 				comment: "猫の下僕",
 			    activate:false,
 				no:6
-			}, { //8
+			}, { 
 				name: "山田 明歩",
 				profile: "CGデザイナー\n鹿児島県出身",
 				comment: "映像のお話させてください！",
 			    activate:false,
 				no:7
-			}, { //9
+			}, { 
 				name: "白鳥 夢穂",
 				profile: "身長150cm\n目が死んでる",
 				comment: "美味しいご飯を食べたい",
 			    activate:true,
 				no:8
-			}, { //10
+			}, { 
 				name: "菊池 結芽",
 				profile: "お酒好き\n小指が短い\n秋田県出身",
 				comment: "音楽の話をします",
 			    activate:false,
 				no:9
-			}, { //11
+			}, { 
 				name: "島村 仁子",
 				profile: "東京出身\n箱根に住むのが夢",
 				comment: "ファションセンターしまむら",
 			    activate:false,
 				no:10
-			}, { //12結芽
+			}, { 
 				name: "横川 あゆみ",
 				profile: "闇属性\n前世は猫\n日本とアメリカを\n行ったり来たり",
 				comment: "アメリカでの生活の話を 聞いてください",
 			    activate:false,
 				no:11
-			}, { //13
+			}, { 
 				name: "梶川 晴香",
 				profile: "好きなアイスは\nラムレーズンと苺",
 				comment: "マシュマロ美味しい",
 			    activate:true,
 				no:12
-			}, { //14
+			}, { 
 				name: "中野 豊子",
 				profile: "名前の読み方が難しすぎて\n一発で読めた人はいない",
 				comment: "あっこです！",
 			    activate:false,
 				no:13
-			}, { //15
+			}, { 
 				name: "湯浅 秀哉",
 				profile: "富山県出身\n牛乳好き",
 				comment: "ムウマ",
 			    activate:true,
 				no:14
-			}, { //16
+			}, { 
 				name: "平川 恵未",
 				profile: "車に支配されて\nいる街 出身\n装備：杖（片手武器）",
 				comment: "戦隊物が好きです",
 			    activate:false,
 				no:15
-			},  { //18
+			},  { 
 				name: "黄 滿錫",
 				profile: "ボードゲーマー\n韓国出身",
 				comment: "おすすめのボドゲ 知りたいですよね？",
 			    activate:false,
 				no:16
-			}, { //19
+			}, { 
 				name: "阿部 祐也",
 				profile: "たばこをやめるくらいなら\n人間やめる！！",
 				comment: "いろんなお話 取り揃えています",
 			    activate:false,
 				no:17
-			}, { //20
+			}, { 
 				name: "山本 武志",
 				profile: "Q.きのこ？たけのこ？\nA.すぎのこ",
 				comment: "なぜすぎのこは無くなったのか",
 			    activate:false,
 				no:18
-			}, { //21
+			}, { 
 				name: "若生 美悠",
 				profile: "セでは阪神横浜\nパでは西武ロッテ\nTHE RAMPAGE",
 				comment: "推しの話を させてください！！！",
 			    activate:false,
 				no:19
-			}, { //22
+			}, { 
 				name: "宮城 剛",
 				profile: "食べ歩き好き\n沖縄県出身",
 				comment: "おすすめ食べ歩きスポット あります！",
 			    activate:false,
 				no:20
-			},{ //23
-				name: "木幡 香南",
-				profile: "2023もサウナでととのいたい！",
-				comment: "サウナ！ハロプロ！酒！！！",
+			},{ 
+				name: "齋藤 美香",
+				profile: "結構いろんなゲームやってます",
+				comment: "愛猫はこなつくんです♡",
 			    activate:false,
 		        no:21
-		    },{ //24
+		    },{ 
 				name: "鄧 佳境",
 				profile: "展覧会によく行く",
 				comment: "トーテミズムに興味があります！",
 			    activate:true,
 		        no:22
-		    },{ //25
+		    },{ 
 				name: "주 현성",
 				profile: "韓国の田舎出身",
 				comment: "仮面ライダーのことなら\nお任せください！",
 			    activate:true,
 		        no:23
-			},{ //26
+			},{ 
 				name: "河高 崇",
 				profile: "23新卒の中では日本出身",
 				comment: "意外？とカラオケが趣味です",
 			    activate:true,
 		        no:24
-			},{ //27
+			},{ 
 				name: "西根 奈都実 ",
 				profile: "猫を飼っています",
 				comment: "サラミあん肝塩辛かにみそ生ハム\nローストビーフスモークサーモン",
@@ -3161,7 +3161,6 @@ if (reversed == null) { reversed = false; }
 		    this.menu.menu_scene.user_23,
 		    this.menu.menu_scene.user_24,
 		    this.menu.menu_scene.user_25,
-		    this.menu.menu_scene.user_26,
 		]
 		
 		icons[0].addEventListener("click", SetActiveUser0);
@@ -3190,7 +3189,6 @@ if (reversed == null) { reversed = false; }
 		icons[23].addEventListener("click", SetActiveUser23);
 		icons[24].addEventListener("click", SetActiveUser24);
 		icons[25].addEventListener("click", SetActiveUser25);
-		icons[26].addEventListener("click", SetActiveUser26);
 		
 		function SetActiveUser0(){SetActiveUser(0);}
 		function SetActiveUser1(){SetActiveUser(1);}
@@ -3218,7 +3216,6 @@ if (reversed == null) { reversed = false; }
 		function SetActiveUser23(){SetActiveUser(23);}
 		function SetActiveUser24(){SetActiveUser(24);}
 		function SetActiveUser25(){SetActiveUser(25);}
-		function SetActiveUser26(){SetActiveUser(26);}
 		
 		function SetActiveUser(index){
 			if(infos[index].activate  == true){
@@ -3257,7 +3254,7 @@ if (reversed == null) { reversed = false; }
 		
 			//for文＝反復をさせる 書式：for(初期値,条件,変化)
 			//iを0と定義、iが23未満の時、その後i+1をする
-			for (var i = 0; i < 27; i++) {
+			for (var i = 0; i < 26; i++) {
 		
 				eval("root.menu.menu_scene.user_" + i).icon.numberPaper = i + 2;
 		
@@ -3472,8 +3469,8 @@ lib.properties = {
 	color: "#E5DACA",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png?1694490298982", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1694490298982", id:"index_atlas_2"}
+		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png", id:"index_atlas_2"}
 	],
 	preloads: []
 };
